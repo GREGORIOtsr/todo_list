@@ -1,0 +1,34 @@
+#itemForm {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 40px;
+}
+
+#itemForm label {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#itemForm input,
+#itemForm select {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+#itemForm button {
+  font-size: 25px;
+  width: fit-content;
+  align-self: center;
+  margin-top: 20px;
+}
+
+#btns button {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+#itemList {
+  display: flex;
+  flex-flow: column wrap;
+}
